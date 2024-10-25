@@ -1,0 +1,14 @@
+C:\xampp\htdocs\tahawork\TahaWork\TahaWork\bin\Debug\net6.0\TahaWork.exe
+C:\xampp\htdocs\tahawork\TahaWork\TahaWork\bin\Debug\net6.0\TahaWork.deps.json
+C:\xampp\htdocs\tahawork\TahaWork\TahaWork\bin\Debug\net6.0\TahaWork.runtimeconfig.json
+C:\xampp\htdocs\tahawork\TahaWork\TahaWork\bin\Debug\net6.0\TahaWork.dll
+C:\xampp\htdocs\tahawork\TahaWork\TahaWork\bin\Debug\net6.0\TahaWork.pdb
+C:\xampp\htdocs\tahawork\TahaWork\TahaWork\obj\Debug\net6.0\TahaWork.GeneratedMSBuildEditorConfig.editorconfig
+C:\xampp\htdocs\tahawork\TahaWork\TahaWork\obj\Debug\net6.0\TahaWork.AssemblyInfoInputs.cache
+C:\xampp\htdocs\tahawork\TahaWork\TahaWork\obj\Debug\net6.0\TahaWork.AssemblyInfo.cs
+C:\xampp\htdocs\tahawork\TahaWork\TahaWork\obj\Debug\net6.0\TahaWork.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\tahawork\TahaWork\TahaWork\obj\Debug\net6.0\TahaWork.dll
+C:\xampp\htdocs\tahawork\TahaWork\TahaWork\obj\Debug\net6.0\refint\TahaWork.dll
+C:\xampp\htdocs\tahawork\TahaWork\TahaWork\obj\Debug\net6.0\TahaWork.pdb
+C:\xampp\htdocs\tahawork\TahaWork\TahaWork\obj\Debug\net6.0\TahaWork.genruntimeconfig.cache
+C:\xampp\htdocs\tahawork\TahaWork\TahaWork\obj\Debug\net6.0\ref\TahaWork.dll

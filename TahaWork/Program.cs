@@ -1035,7 +1035,7 @@ public class Shopping
 //EXAMPLE # 02
 
 
-public class Payment
+/*public class Payment
 {
     public delegate void ProcessPayment(double amount, string method);
 
@@ -1059,5 +1059,46 @@ public class Payment
 
         paymentMethod = CashPayment;
         paymentMethod(800, "Cash");
+    }
+}
+*/
+
+//UNARY OPERATOR a++, a--
+//BINARY OPERATOR a + b; a - b
+// Ternary Operators (condition) ? "hi" :"Bye";
+
+//Console.WriteLine(greet);
+
+//getters and setters
+
+Animal cat = new Animal();
+cat.Name = "Tom";
+cat.Age = 40;
+Console.WriteLine(cat.Age);//10
+
+
+public class Animal
+{
+    public string? Name { get; set; } //auto complete properties
+    private int age;
+
+
+    public int Age
+    {
+        get { return age; }
+
+        set
+        {
+
+            if (value > 10)
+            {
+
+                age = value;
+            }
+            else
+            {
+                age = 10;
+            }
+        }
     }
 }

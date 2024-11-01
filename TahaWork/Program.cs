@@ -518,6 +518,7 @@ using System.Linq;
 
 
 using System.Collections;
+using System.Reflection.Metadata;
 ////Dictionaries(Generics)
 //Dictionary<string, string> user = new Dictionary<string, string>();
 //user.Add("username", "owaisk23");
@@ -1071,7 +1072,7 @@ public class Shopping
 
 //getters and setters
 
-Animal cat = new Animal();
+/*Animal cat = new Animal();
 cat.Name = "Tom";
 cat.Age = 40;
 Console.WriteLine(cat.Age);//10
@@ -1101,4 +1102,89 @@ public class Animal
             }
         }
     }
+}*/
+
+//enum
+//Implicit typecasting
+//Explicit typecasting
+
+/*Console.WriteLine($"{indBatters.Rohit} has jersey no {(int)indBatters.Rohit}");
+
+enum indBatters
+{
+    Kohli = 56,
+    Gill = 33,
+    Rohit = 45,
+    Jadeja = 75
+}*/
+
+//events
+
+//myCar Civic = new myCar();
+//Civic.speedUp += new myCar.speedCar(myCar.carMoved);
+//Civic.drive();
+
+
+//public class myCar
+//{
+//    public delegate void speedCar();
+//    public event speedCar speedUp;
+//    public int speed = 0;
+
+//    public void drive()
+//    {
+//        for (int i = 1; i < 100; i++)
+//        {
+//            if (i > 50)
+//            {
+//                speedUp();
+//            }
+//            Console.WriteLine($"the car is moving at {i} mph");
+//            System.Threading.Thread.Sleep(50);
+
+
+//        }
+//    }
+//    public static void carMoved()
+//    {
+//        Console.WriteLine("the speed limit has exceeded");
+//    }
+
+
+//}
+
+User taha = new User();
+taha.id = 1;
+taha.name = "Muhammad Taha";
+
+User mirza = new User();
+mirza.id = 1;
+mirza.name = "Mirza Hasan";
+
+/*Console.WriteLine(taha);*/
+/*Console.WriteLine(taha == mirza);*/
+
+User1 ebaad = new User1();
+ebaad.id = 2;
+ebaad.name = "Ebaad";
+
+User1 ali = new User1();
+ali.id = 1;
+ali.name = "ali";
+
+/*Console.WriteLine(ebaad);*/
+Console.WriteLine(ebaad == ali);
+
+public class User
+{
+    public int id { get ; set;}
+
+    public string name { get; set;}
+}
+
+public record User1
+{
+    public int id { get; set;}
+
+    public string name { get; set;}
 }
